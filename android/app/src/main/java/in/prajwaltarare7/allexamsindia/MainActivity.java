@@ -139,6 +139,7 @@ public class MainActivity extends Activity {
 
         ImageView logo = new ImageView(this);
         logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
+        logo.setImageResource(R.drawable.app_logo);
         LinearLayout.LayoutParams logoParams = new LinearLayout.LayoutParams(dp(172), dp(185));
         logoParams.bottomMargin = dp(8);
         card.addView(logo, logoParams);
