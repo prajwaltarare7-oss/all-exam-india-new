@@ -5,6 +5,7 @@
     <application
         android:allowBackup="false"
         android:label="All Exam India"
+        android:icon="@drawable/app_logo"
         android:theme="@android:style/Theme.Material.Light.NoActionBar"
         android:usesCleartextTraffic="false"
         android:supportsRtl="true">
