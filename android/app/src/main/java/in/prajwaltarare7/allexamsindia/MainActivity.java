@@ -317,7 +317,6 @@ public class MainActivity extends Activity {
         settings.setDomStorageEnabled(true);
         // Always revalidate website resources so published site updates appear in the app.
         settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
-        settings.setAppCacheEnabled(false);
         settings.setDatabaseEnabled(true);
         settings.setLoadWithOverviewMode(true);
         settings.setUseWideViewPort(true);
