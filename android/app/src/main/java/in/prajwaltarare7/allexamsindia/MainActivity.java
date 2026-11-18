@@ -145,7 +145,7 @@ public class MainActivity extends Activity {
         card.addView(logo, logoParams);
 
         TextView heading = new TextView(this);
-        heading.setText("Welcome to SSC EXAM.IN");
+        heading.setText("Welcome to ALL EXAM INDIA");
         heading.setTextColor(Color.rgb(23, 35, 61));
         heading.setTextSize(22);
         heading.setGravity(Gravity.CENTER);
