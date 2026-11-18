@@ -295,8 +295,15 @@ public class MainActivity extends Activity {
         webContainer.addView(progressBar, progressParams);
 
         if (webView.getUrl() == null) {
-            webView.loadUrl(HOME_URL);
+            loadLatestWebsite();
         }
+    }
+
+    private void loadLatestWebsite() {
+        if (webView == null) return;
+        webView.clearCache(true);
+        webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+        webView.loadUrl(HOME_URL + "?app_refresh=" + System.currentTimeMillis());
     }
 
     private void initializeWebView() {
@@ -308,6 +315,9 @@ public class MainActivity extends Activity {
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
+        // Always revalidate website resources so published site updates appear in the app.
+        settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
+        settings.setAppCacheEnabled(false);
         settings.setDatabaseEnabled(true);
         settings.setLoadWithOverviewMode(true);
         settings.setUseWideViewPort(true);
@@ -526,7 +536,7 @@ public class MainActivity extends Activity {
             showingError = false;
             if (errorView != null) webContainer.removeView(errorView);
             errorView = null;
-            webView.loadUrl(HOME_URL);
+            loadLatestWebsite();
         });
 
         LinearLayout content = new LinearLayout(this);
