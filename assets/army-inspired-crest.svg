@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" role="img" aria-labelledby="t d">
+<title id="t">Decorative Army-inspired crest</title><desc id="d">Gold and dark green crest with laurel leaves, a central star, an ARMY banner and Indian tricolour ribbon. Decorative artwork, not an official insignia.</desc>
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0a6"/><stop offset=".42" stop-color="#d99b25"/><stop offset="1" stop-color="#8b5310"/></linearGradient>
+ <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#254f2c"/><stop offset="1" stop-color="#071d12"/></linearGradient>
+ <linearGradient id="r" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe8a0"/><stop offset="1" stop-color="#a86b17"/></linearGradient>
+ <filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="7"/><feOffset dy="7"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#sh)" stroke="#f5d47a" stroke-width="5" stroke-linejoin="round">
+ <path d="M260 18 L286 55 L327 43 L329 85 L368 104 L344 137 L367 171 L328 184 L260 210 L192 184 L153 171 L176 137 L152 104 L191 85 L193 43 L234 55Z" fill="url(#g)"/>
+ <path d="M260 39 L273 68 L305 62 L302 93 L330 108 L308 132 L326 157 L292 163 L260 187 L228 163 L194 157 L212 132 L190 108 L218 93 L215 62 L247 68Z" fill="url(#gr)" stroke="#81531a" stroke-width="3"/>
+ <path d="M260 65 L269 91 L297 91 L275 108 L283 135 L260 119 L237 135 L245 108 L223 91 L251 91Z" fill="url(#g)" stroke="#fff0b1" stroke-width="2"/>
+ <circle cx="260" cy="250" r="171" fill="url(#gr)" stroke="url(#r)" stroke-width="13"/>
+ <circle cx="260" cy="250" r="153" fill="none" stroke="#d5a23e" stroke-width="3" opacity=".8"/>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round">
+ <path d="M125 374 C55 305 69 203 142 139"/>
+ <path d="M395 374 C465 305 451 203 378 139"/>
+</g>
+<g fill="url(#g)" stroke="#8e5a17" stroke-width="2">
+ <ellipse cx="104" cy="330" rx="13" ry="29" transform="rotate(-48 104 330)"/><ellipse cx="89" cy="289" rx="12" ry="27" transform="rotate(-32 89 289)"/><ellipse cx="91" cy="246" rx="12" ry="26" transform="rotate(-13 91 246)"/><ellipse cx="108" cy="204" rx="12" ry="25" transform="rotate(16 108 204)"/><ellipse cx="137" cy="168" rx="11" ry="23" transform="rotate(35 137 168)"/>
+ <ellipse cx="416" cy="330" rx="13" ry="29" transform="rotate(48 416 330)"/><ellipse cx="431" cy="289" rx="12" ry="27" transform="rotate(32 431 289)"/><ellipse cx="429" cy="246" rx="12" ry="26" transform="rotate(13 429 246)"/><ellipse cx="412" cy="204" rx="12" ry="25" transform="rotate(-16 412 204)"/><ellipse cx="383" cy="168" rx="11" ry="23" transform="rotate(-35 383 168)"/>
+</g>
+<path d="M260 126 L293 207 L379 207 L309 258 L336 341 L260 291 L184 341 L211 258 L141 207 L227 207Z" fill="url(#g)" stroke="#fff0ae" stroke-width="5" stroke-linejoin="round"/>
+<path d="M260 145 L260 291 M151 207 L309 258 M369 207 L211 258" stroke="#fff2bd" stroke-width="2" opacity=".65"/>
+<path d="M50 348 L470 348 L495 390 L470 432 L50 432 L25 390Z" fill="url(#gr)" stroke="url(#g)" stroke-width="9" filter="url(#sh)"/>
+<text x="260" y="408" text-anchor="middle" font-family="Georgia,serif" font-size="66" font-weight="900" letter-spacing="7" fill="url(#g)" stroke="#6f4310" stroke-width="1.5">ARMY</text>
+<path d="M105 455 Q260 425 415 455 L452 490 Q260 536 68 490Z" fill="#f28c16" stroke="#d59a35" stroke-width="4"/>
+<path d="M84 479 Q260 452 436 479 L449 502 Q260 548 71 502Z" fill="#fff" stroke="#d7b56b" stroke-width="3"/>
+<path d="M71 502 Q260 548 449 502 L420 535 Q260 568 100 535Z" fill="#16834a" stroke="#d59a35" stroke-width="4"/>
+<circle cx="260" cy="489" r="22" fill="none" stroke="#183b79" stroke-width="4"/>
+<circle cx="260" cy="489" r="4" fill="#183b79"/>
+<g stroke="#183b79" stroke-width="2"><path d="M260 468V510 M239 489H281 M245 474L275 504 M275 474L245 504 M252 468L268 510 M268 468L252 510 M239 481L281 497 M239 497L281 481"/></g>
+</svg>
