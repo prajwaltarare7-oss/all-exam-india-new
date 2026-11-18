@@ -138,7 +138,6 @@ public class MainActivity extends Activity {
         card.setBackground(cardBg);
 
         ImageView logo = new ImageView(this);
-        logo.setImageResource(R.drawable.website_hero_logo);
         logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
         LinearLayout.LayoutParams logoParams = new LinearLayout.LayoutParams(dp(172), dp(185));
         logoParams.bottomMargin = dp(8);
